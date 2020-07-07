@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
-import ProjectsMenu from "./ProjectsMenu";
+import ImageSlideShow from "./ImageSlideShow";
 
 class Home extends Component {
   render() {
     return (
       <div className="home-page">
-        <ProjectsMenu />
+        <ImageSlideShow />
         <main className="home-main">
           {/*----> The Main <----*/}
           <section className="home-content">

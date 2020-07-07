@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class ProjectsMenu extends Component {
+class ImagesSlideShow extends Component {
   constructor() {
     super();
     this.state = {
@@ -43,4 +43,4 @@ class ProjectsMenu extends Component {
   }
 }
 
-export default ProjectsMenu;
+export default ImagesSlideShow;
