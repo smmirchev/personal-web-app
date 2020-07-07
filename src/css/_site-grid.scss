@@ -1,0 +1,254 @@
+// --------------- Site Grid------------->
+@supports (grid-area: auto) {
+  .app {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .app-header {
+    grid-column: 1/4;
+  }
+
+  .home-page {
+    grid-column: 1/4;
+  }
+
+  .project-page {
+    grid-column: 1/4;
+  }
+
+  .app-footer {
+    position: static;
+    grid-column: 1/4;
+  }
+
+  // ------------- Home Page Grid------------->
+
+  .home-page {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .projects-menu {
+    grid-column: 1/3;
+    grid-row: 1/2;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .home-side-bar {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  // ------------ Home Page Main Grid ---------->
+  .home-main {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .home-content {
+    grid-column: 2/3;
+    padding: 0;
+    .main-text {
+      padding: 1rem;
+    }
+    .featured-main-text {
+      p {
+        margin-bottom: 4rem;
+      }
+    }
+  }
+
+  .home-featured {
+    grid-column: 1/4;
+  }
+
+  .main-text {
+    p {
+      text-align: left;
+    }
+    ul {
+      text-align: left;
+      font-size: 1.1rem;
+    }
+  }
+
+  // ------------------ Media Queries --------------->
+  @media only screen and (max-width: 1499px) {
+    .home-side-bar {
+      grid-column: 3/4;
+      grid-row: 2/3;
+    }
+    .projects-menu {
+      grid-column: 1/4;
+    }
+    .home-main {
+      grid-column: 1/4;
+      grid-row: 2/3;
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      
+      p {
+        text-align: left;
+      }
+    }
+    .home-content {
+      grid-column: 1/3;
+    }
+  }
+
+  @media only screen and (max-width: 1099px) {
+    .home-side-bar {
+      grid-column: 1/4;
+      grid-row: 3/4;
+      padding-bottom: 1rem;
+    }
+    .projects-menu {
+      grid-column: 1/4;
+    }
+    .home-main {
+      grid-column: 1/4;
+      grid-row: 2/3;
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+    }
+    .home-content {
+      grid-column: 1/4;
+    }
+    p {
+      text-align: left;
+    }
+  }
+
+  // --------------- Projects Page Grid ------------------->
+
+  .project-page {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 10rem auto auto;
+  }
+
+  .projects-main {
+    grid-column: 2/3;
+    grid-row: 1/3 span;
+  }
+
+  .search-menu {
+    grid-column: 3/4;
+    grid-row: 1/2 span;
+  }
+  // ------------------ Media Queries --------------->
+  @media only screen and (max-width: 1549px) {
+    .projects-main {
+      grid-column: 1/3;
+      grid-row: 1/3 span;
+    }
+  }
+
+  @media only screen and (max-width: 1399px) {
+    .project-page {
+      grid-template-rows: 5rem auto auto;
+    }
+    .projects-main {
+      grid-column: 1/4;
+      grid-row: 2/3 span;
+    }
+    .search-menu {
+      grid-column: 1/4;
+      grid-row: 1/2 span;
+    }
+  }
+}
+// --------------- Projects List Flex ----------------->
+
+@supports (display: flex) {
+  .project-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #9e95a8;
+    flex-wrap: nowrap;
+
+    .project-item {
+      img {
+        max-width: 100%;
+      }
+
+      img.align-self {
+        align-self: center;
+      }
+    }
+
+    .project-item-text {
+      max-width: 40%;
+      padding: 20px;
+      .group-project {
+        color: #ab221d;
+        font-weight: bold;
+      }
+      a {
+        color: #ab221d;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:hover {
+        color: #ce2621;
+      }
+    }
+
+    .project-images {
+      max-width: 60%;
+      display: flex;
+    }
+  }
+  // ------------------ Media Queries --------------->
+  @media only screen and (max-width: 1149px) {
+    .project-container {
+      flex-direction: column;
+      .project-item {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+// --------------- Home Featured Projects Flex------------------->
+
+@supports (display: flex) {
+  .home-featured {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #948888;
+  }
+  .featured-projects {
+    width: 45%;
+    h3 {
+      font-size: x-large;
+    }
+  }
+  .featured-projects img {
+    max-width: 100%;
+  }
+
+  // ------------------ Media Queries --------------->
+  @media only screen and (max-width: 799px) {
+    .home-featured {
+      flex-direction: column;
+      align-items: center;
+    }
+    .featured-projects {
+      width: 85%;
+    }
+  }
+}
+
+.projects-list {
+  li {
+    padding: 10px;
+  }
+}

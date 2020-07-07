@@ -1,0 +1,54 @@
+.app-header {
+    nav {
+      ul {
+        list-style-type: none;
+        li {
+          float: right;
+        }
+        li a {
+          display: block;
+          text-align: center;
+          padding: 10px 20px;
+          text-decoration: none;
+          color: $nav-list-color;
+        }
+        li a:hover {
+          color: $nav-list-hover;
+          background-color: $nav-list-hover-bckg;
+        }
+      }
+    }
+  }
+  
+  .fa-icons {
+      font-size: 1rem;
+      vertical-align: bottom;
+    }
+  
+  
+  .app-footer {
+      background-color: $footer-color-background;
+      padding: 2rem 0;
+      position: absolute;
+      width: 100%;
+      font-size: $main-font-size;
+      text-align: center;
+      p {
+          display: inline-block;
+          color: $footer-color-text;
+      }
+    a {
+        display: inline-block;
+        position: relative;
+        bottom: 0.5rem;
+        text-decoration: none;
+        color: $footer-color-link;
+    }
+    a:hover {
+        color: $footer-color-hover;
+    }
+  }
+  
+  .app-footer > * {
+    padding: 0 20px;
+  }

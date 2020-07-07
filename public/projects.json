@@ -1,0 +1,64 @@
+[
+    {
+        "projectName": "Corb's Refuge",
+        "software": "C#, Unity",
+        "category": "Game Development",
+        "content": "Corb’s Refuge is an action adventure game, which follows the story of a treasure hunter, who voyaged to an unexplored island looking for adventures. As in every action game, the player must fight their way through deadly enemies by utilizing their character’s full potential. Not every opponent can be defeated with just brute strength alone, some will require hidden weapons.",
+        "github": "https://github.com/smmirchev/Corb-s-Refuge",
+        "group": false,
+        "image": "./images/corb.png" 
+    },
+    {
+        "projectName": "Personal Finance Application",
+        "software": "Java",
+        "category": "Software Development",
+        "content": "Stock exchange java app for the Iextrading stock market. Registered users have a starting balance with which they can manage various company stocks offered by Iextrading. Users can buy, sell stocks or get graphical representation of the stocks’ value for the past 3 years.",
+        "group": true,
+        "image": "./images/finance.png" 
+    },
+    {
+        "projectName": "ImageNet Object Identification",
+        "software": "Python",
+        "category": "Machine Learning, Software Development",
+        "content": "The project software creates a machine learning model, which is being trained on the ImageNet database, consisting of approximately 1.3 million images, divided into 1000 categories, for the purpose of accurately classifying images. The model achieved an accuracy of 84% on the validation dataset.",
+        "github": "https://github.com/smmirchev/ImageNet-Object-Identification",
+        "group": false,
+        "image": "./images/classification-model.jpg" 
+    },
+    {
+        "projectName": "Asteroids",
+        "software": "Java",
+        "category": "Game Development",
+        "content": "A Java Swing game where players are in control of a spaceship and must use their piloting and shooting skills to overcome various kinds of enemies. There are 15 levels to complete, 5 unique power-ups - extra life, ship power, more bullets, slow down time, and a special energy shield.",
+        "github": "https://github.com/smmirchev/Asteroids",
+        "group": false,
+        "image": "./images/asteroids.png" 
+    },
+    {
+        "projectName": "Protest Violence Estimation",
+        "software": "Python",
+        "category": "Machine Learning, Software Development",
+        "content": "The project aims to calculate the violence factor in digital images of protests. The project consists of a multi-head neural network, which uses machine learning algorithms to estimate the violence factor based on 10 parameters - sign, photo, fire, police, children, group of 20, group of 100, flag, nigh and shouting.",
+        "github": "https://github.com/smmirchev/protest-violence-estimation",
+        "group": false,
+        "image": "./images/violence-estimation.png" 
+    },
+    {
+        "projectName": "Besikovitch's Game",
+        "software": "Java",
+        "category": "Game Development",
+        "content": "A Java Swing perfect information card game for two players – a human player and an artificial intelligence (AI) player. The player must use their wits to carefully calculate the enemy moves and devise a strategy to beat the AI player.",
+        "github": "https://github.com/smmirchev/Besikovitch-s-Game",
+        "group": false,
+        "image": "./images/Besikovitch.png" 
+    },
+    {
+        "projectName": "Shape Based Game",
+        "software": "Java",
+        "category": "Game Development",
+        "content": "A maze game in which the player must find and step on the blue circle to win. There are red pie-shaped enemies which fly over the maze, when they collide with the player, the game is lost. There are pink squares which will reward the player with 10 scores when collected.",
+        "github": "https://github.com/smmirchev/2-Dimensional-Shape-Based-Game",
+        "group": false,
+        "image": "./images/shape-game.png" 
+    }
+]
