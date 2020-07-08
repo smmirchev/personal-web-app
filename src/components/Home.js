@@ -10,7 +10,7 @@ class Home extends Component {
         <main className="home-main">
           {/*----> The Main <----*/}
           <section className="home-content">
-            <div className="main-text">
+            <div className="main-text about-author">
               <h2>About the Author</h2>
               <p>
                 I am a University of Essex graduate student with a computer
@@ -38,7 +38,7 @@ class Home extends Component {
             <div className="main-text featured-main-text">
               <h2>Featured Projects</h2>
               <p>
-                My two most challenging projects are software for classifying
+                My most challenging projects are software for classifying
                 objects in digital images from 1000 categories and software for
                 estimating the violence factor of protests. Both projects are
                 part of my final-year university project, which achieved

@@ -79,12 +79,12 @@ class App extends Component {
               <ul>
                 <li>
                   <Link to="/projects">
-                    <FaBook className="fa-icons" size={20} /> Projects
+                    <FaBook className="fa-icons" size={22} /> Projects
                   </Link>
                 </li>
                 <li>
                   <Link to="/">
-                    <FaHome className="fa-icons" size={21} /> Home
+                    <FaHome className="fa-icons" size={24} /> Home
                   </Link>
                 </li>
               </ul>

@@ -25,12 +25,7 @@ p {
   text-align: center;
 }
 
-section {
-  padding: 2rem 0;
-}
-
 aside {
-  padding: 2rem 0;
   padding-bottom: 5rem;
 }
 
@@ -49,6 +44,17 @@ aside {
   padding-left: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #1b1be7;
+  &:hover {
+    color: #3d3dec;
+  }
+  &:active {
+    color: #ee0000;
+  }
+}
+
 ////////////////////////////
 
 .search-menu {
@@ -56,7 +62,6 @@ aside {
   margin-left: 40px;
   margin-top: 30px;
 }
-
 
 .dropbtn {
   background-color: #0617b3;
