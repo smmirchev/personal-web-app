@@ -13,25 +13,38 @@ class Home extends Component {
             <div className="main-text about-author">
               <h2>About the Author</h2>
               <p>
-                I am a University of Essex graduate student with a computer
-                science degree – BSc Computer Games. I have deep understanding
-                of various advanced programming concepts and practical
-                experience in applying these concepts, as shown by my projects.
-                I am also confident in my design skills, backed by my photo and
-                video editing background and freelance Adobe Photoshop and Adobe
-                Premiere projects. Below is a list of my technical expertise:
+                I pride myself in being a resourceful full stack developer, with
+                a computer science degree – BSc Computer Games at University of
+                Essex. Skilled in creating React SPAs, with NodeJS, ExpressJS,
+                and MongoDB on the back-end, while providing great user
+                experience with advanced CSS responsive layouts such as Grid and
+                Flexbox. I have deep understanding of various advanced
+                programming concepts and practical experience in applying these
+                concepts, as demonstrated through my academic projects.
               </p>
               <ul>
                 <li>
-                  <b>Web Development:</b> HTML, CSS, JavaScript, ES6, React,
-                  SASS.
+                  <b>Programming Languages:</b> JavaScript (ES6), Java, Python,
+                  C#
                 </li>
                 <li>
-                  <b>Software Development:</b> Java, Python, C#.
+                  <b>Front-End:</b> HTML5, CSS3, React, SASS
                 </li>
                 <li>
-                  <b>Other:</b> TDD (Mocha, Chai, JUnit), Git, Jira, Machine
-                  Learning, Threads and Synchronization, Computer Vision.
+                  <b>Back-End:</b> NodeJS, ExpressJS, MongoDB
+                </li>
+                <li>
+                  <b>Testing:</b> Mocha, Chai
+                </li>
+                <li>
+                  <b>Tools:</b> Git, GitHub, Jira
+                </li>
+                <li>
+                  <b>Processes:</b> Agile, Scrum, Kanban
+                </li>
+                <li>
+                  <b>Advanced Programming:</b> Machine Learning, Threads and
+                  Synchronization, Computer Vision
                 </li>
               </ul>
             </div>
@@ -138,7 +151,7 @@ class Home extends Component {
           <div className="sides">
             <h3>The Projects</h3>
             <p>
-              The projects shown on the project page are some of my university
+              The projects shown on the Projects page are some of my university
               projects. The School of Computer Science and Electronic
               Engineering at the University of Essex is committed to educate its
               students to become computing professionals. Programming is one of
